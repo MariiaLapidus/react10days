@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d629a0-72ab-4d0f-80bb-e35610fc4ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/DeleteMovie.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/MovieItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MovieItem.jsx" afterDir="false" />
@@ -82,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583752371918</updated>
       <workItem from="1583752373117" duration="4077000" />
-      <workItem from="1583872533545" duration="28085000" />
+      <workItem from="1583872533545" duration="30458000" />
     </task>
     <task id="LOCAL-00001" summary="movies">
       <created>1584033806588</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584033806588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="movies Delete">
+      <created>1584120241983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584120241983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="movies" />
+    <MESSAGE value="movies Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="movies Delete" />
   </component>
 </project>

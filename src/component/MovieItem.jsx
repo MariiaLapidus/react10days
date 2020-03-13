@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import DeleteMovie from "./DeleteMovie";
+
 
 class MovieItem extends Component {
     constructor() {
@@ -9,7 +9,7 @@ class MovieItem extends Component {
             willWatch: false,
 
         };
-        this.removeMovie = this.removeMovie.bind(this);
+
     }
 
 
@@ -23,20 +23,13 @@ class MovieItem extends Component {
             willWatch: !prevState.willWatch
         }));
     };
-    removeMovie = movie => {
-        const updateMovies = this.state.movies.filter(function (item) {
-            return item.id !== movie.id;
-        });
-        this.setState({
-            movies: updateMovies
-        })
-    }
+
 
 
     render() {
         const {item} = this.props;
         const {willWatch} =this.state;
-        const {movie} = this.props;
+
 
         return (
             <div className="card" style={{ width: "100%"}}>
@@ -50,13 +43,6 @@ class MovieItem extends Component {
                     <h6 className="card-title">{item.title}</h6>
                     <div className="d-flex justify-content-between align-items-center">
                         <p className="mb-0">Rating: {item.vote_average}</p>
-                        <DeleteMovie
-                        key = {movie.id}
-                        movie={movie}
-                        removeMovie={this.removeMovie}
-                        />
-
-
                         <button
                         type="button"
                         className={`btn ${willWatch ? "btn-success" : "btn-secondary"}`}
