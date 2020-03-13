@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d629a0-72ab-4d0f-80bb-e35610fc4ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/MovieItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/MovieList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/MovieListWillWatch.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moviesData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/DeleteMovie.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/MovieItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MovieItem.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +82,16 @@
       <option name="presentableId" value="Default" />
       <updated>1583752371918</updated>
       <workItem from="1583752373117" duration="4077000" />
-      <workItem from="1583872533545" duration="20045000" />
+      <workItem from="1583872533545" duration="28085000" />
     </task>
+    <task id="LOCAL-00001" summary="movies">
+      <created>1584033806588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584033806588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="movies" />
   </component>
 </project>

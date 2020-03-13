@@ -18,6 +18,7 @@ class App extends Component {
         };
     }
 
+
     addMovieToWillWatch = movie => {
         this.setState( prevState =>({
             moviesWillWatch: [...prevState.moviesWillWatch, movie]
@@ -36,12 +37,13 @@ class App extends Component {
         return  (
             <div className="container">
                 <div className="row mt-4">
-                    <div className="col_9">
+                    <div className="col-9">
                         <MovieList
                             movies={movies}
                             addMovieToWillWatch={this.addMovieToWillWatch}
                             removeMovieFromWillWatch={this.removeMovieFromWillWatch}
                         />
+
                     </div>
                     <div className="col-3">
                         <MovieListWillWatch moviesWillWatch={moviesWillWatch} />
